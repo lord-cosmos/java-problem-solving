@@ -1,5 +1,7 @@
 package practice.twoPointer;
 
+// please check the twoSum.java
+
 class pairSum {
   public static boolean pairSumISEqual(int[] arr, int target) {
     int point_1 = 0;
