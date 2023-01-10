@@ -1,4 +1,4 @@
-package practice.ArraysAndHashing;
+package practice.twoPointer;
 
 // O(n) TC and O(2n) for SC
 
