@@ -18,7 +18,7 @@ class ListNode {
 }
 
 public class MergeTwoSortedLists {
-  public ListNode mergeTwoLists(ListNode list1, ListNode list2) {
+  public static ListNode mergeTwoLists(ListNode list1, ListNode list2) {
     ListNode p1 = list1;
     ListNode p2 = list2;
 
