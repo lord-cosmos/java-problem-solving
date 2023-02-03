@@ -10,7 +10,7 @@ class Node {
   }
 }
 
-class TreeTraversal {
+public class TreeTraversal {
   // root of Tree
   Node root;
 
