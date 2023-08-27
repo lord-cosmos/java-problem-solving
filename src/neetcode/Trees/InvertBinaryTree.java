@@ -37,6 +37,6 @@ public class InvertBinaryTree {
     invertTree(root.right);
 
     return root;
-    Math
+
   }
 }
