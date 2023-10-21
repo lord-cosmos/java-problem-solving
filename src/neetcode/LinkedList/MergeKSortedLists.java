@@ -20,5 +20,6 @@ public class MergeKSortedLists {
       }
       return lists[0];
     }
+    return null;
   }
 }

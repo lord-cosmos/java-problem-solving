@@ -14,5 +14,6 @@ public class LowestCommonAncestor {
         return curr;
       }
     }
+    return null;
   }
 }
