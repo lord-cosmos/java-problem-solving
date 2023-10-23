@@ -6,14 +6,14 @@ package neetcode.dp;
  * A class which represents the above problem.
  */
 public class HouseRobber {
-  public int rob(int[] nums) {
+  public static int rob(int[] nums) {
     int rob1 = 0;
     int rob2 = 0;
-    for(int n : nums) {
+    for (int n : nums) {
       int temp = Math.max(rob1 + n, rob2);
       rob1 = rob2;
       rob2 = temp;
     }
-  return rob2;
+    return rob2;
   }
 }
